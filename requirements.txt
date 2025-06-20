@@ -1,15 +1,16 @@
 # DL Framework and Dependencies
-# These versions are for native Windows GPU support with CUDA 11.2.
-tensorflow==2.10.0
-numpy==1.23.5
 
 # Processing and Dataset Management
 opencv-python
-fiftyone
-matplotlib
+fiftyone # Make sure to install numpy after fiftyone to avoid conflicts.
+
+# These versions are for native Windows GPU support with CUDA 11.2.
+tensorflow==2.10.0
+numpy==1.23.5
 
 # Used for progress bars during data filtering.
 tqdm
 
 # Jupyter kernel for running the exploratory_analysis.ipynb notebook.
 ipykernel
+
