@@ -81,7 +81,7 @@ colorization_env\Scripts\activate  # Windows
 pip install -r requirements.txt
 ```
 
-## 🎮 Usage
+## Usage
 
 ### Training the Model
 
