@@ -51,6 +51,3 @@ BATCH_SIZE = 4
 EARLY_STOPPING_PATIENCE = 5
 LR_REDUCE_PATIENCE = 3
 LR_REDUCE_FACTOR = 0.5
-
-#  Number of images to visualize in test predictions.
-NUM_VIS_SAMPLES = 5
